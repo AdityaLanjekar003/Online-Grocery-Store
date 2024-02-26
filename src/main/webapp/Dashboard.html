@@ -1,0 +1,104 @@
+<!-- Dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management System - Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #3498db; /* Light Blue */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #87CEEB; /* Light Sky Blue */
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 0 0 15px 15px; /* Round the bottom corners */
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+            width: 80%;
+            background-color: #3498db; /* Light Blue */
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #2980b9; /* Darker Blue on hover */
+        }
+
+        .dashboard-container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            flex: 1;
+        }
+
+        .user-info {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #3498db; /* Light Blue */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            border-radius: 15px 15px 0 0; /* Round the top corners */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Attendance Management System</h1>
+    </header>
+
+    <nav>
+        <div class="user-info">
+            <p>Welcome, <strong>Username</strong></p>
+        </div>
+        <a href="Students.jsp">Students</a>
+        <a href="#">Add Attendance</a>
+        <a href="#">Edit Attendance</a>
+        <a href="#">Teachers</a>
+        <a href="#">Logout</a>
+    </nav>
+
+    <div class="dashboard-container">
+        <!-- Your dashboard content goes here -->
+    </div>
+
+    <footer>
+        &copy; 2024 Attendance Management System
+    </footer>
+</body>
+
+</html>

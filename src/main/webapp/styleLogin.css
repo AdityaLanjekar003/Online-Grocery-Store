@@ -1,0 +1,45 @@
+/* body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  } */
+
+.btn{
+    background-color: #308b32;
+    border-color: #308b32;
+}
+.btn:hover{
+    background-color: #2e752e;
+    border-color: #2e752e;
+}
+section{
+    width: 100%;
+    height: 775px;
+    background : url("https://www.health.com/thmb/CNqaCeVREVU24tBMNeQj7aVlQ44=/8120x0/filters:no_upscale():max_bytes(150000):strip_icc()/Health-GettyImages-1451277246-e535acbd044f41808671167c34d52465.jpg") ;
+    background-size: cover;
+    position: relative;
+    overflow:hidden;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(rgba(40, 153, 40, 0.649),rgba(6, 88, 0, 0.825)) ;
+
+}
+.alink{
+    color: #2e752e;
+}
+.alink:hover{
+    color: #194119;
+    text-decoration: none;
+}
+.login-card{
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}

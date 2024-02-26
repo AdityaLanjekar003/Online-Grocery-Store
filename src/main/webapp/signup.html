@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="styleLogin.css">
+  <title>Online Grocery Store Registration</title>
+</head>
+<body>
+  <section>
+    <div class="overlay">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h2 class="text-center">Sign Up</h2>
+            </div>
+            <div class="card-body">
+              <form id="registrationForm" onsubmit="return validateForm()" method="post" action="registeration.jsp">
+                <div class="form-group">
+                  <!-- <label for="fullName">Full Name :</label> -->
+                  <input type="text" class="form-control" id="fullName" name="fullName" required placeholder="Full Name">
+                </div>
+                <div class="form-group">
+                  <!-- <label for="email">Email :</label> -->
+                  <input type="email" class="form-control" id="email" name="email" required placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                  <!-- <label for="mobileNumber">Mobile Number :</label> -->
+                  <input type="tel" class="form-control" id="mobileNumber" name="mobileNumber" required placeholder="Mobile Number">
+                </div>
+                <div class="form-group">
+                  <!-- <label for="password">Password :</label> -->
+                  <input type="password" class="form-control" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="form-group">
+                  <!-- <label for="confirmPassword">Confirm Password :</label> -->
+                  <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password">
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+                <div class="text-center">
+                  <span>"If already have account? <a href="login.html" class="alink">Sign in now</a>"</span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="index.js"></script>
+
+</body>
+</html>
